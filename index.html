@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<!-- Balise incluant le lien CDN vers bootstraps qui évite du coup à avoir un fichier bootstraps dans la racine -->
+		<link rel="stylesheet" href="style.css">
+		<!-- Balise appelant le fichier CSS qui va venir en surcouche de Bootstraps afin de pouvoir personnaliser -- >
+		<!-- ATTENTION: pour que la surcouche fonctionne il faut absolument qu'elle vienne après Bootstraps-->
+
+		<title>The Surfing Project</title>
+	</head>
+
+	<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	  <a class="navbar-brand" href="#">The Surfing Project</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+	    <ul class="navbar-nav">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Le Programme</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Nos Prochaines Sessions
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	          <a class="dropdown-item" href="#">Biarritz</a>
+	          <a class="dropdown-item" href="#">Lacanau</a>
+	          <a class="dropdown-item" href="#">Hossegore</a>
+	        </div>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+	<div class="jumbotron jumbotron-fluid jumbotron-hero text-center text-light">
+	  <div class="container">
+	    <h1 class="display-4">Partez à l'aventure</h1>
+	    <p class="lead">Découvrez notre école de surf en peer-learning</p>
+	    <button type="button" class="btn btn-primary">Je m'inscris à la prochaine session</button>
+			<button type="button" class="btn btn-secondary">Je découvre le programme</button>
+	  </div>
+	</div>
+
+	<div class="container">
+		<h1 class="text-center">The Surfing Project en 3 points</h1>
+			<br />
+		  <div class="row">
+		    <div class="col-sm-12 col-lg-4 text-center">
+		    	<i class="fas fa-money-bill-wave fa-4x"></i>
+		    		<h4>Pas Chère</h4>
+			     	<p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+		    </div>
+		    <div class="col-sm-12 col-lg-4 text-center">
+		    	<i class="fas fa-couch fa-4x"></i>
+		    		<h4>Relax</h4>
+			      	<p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			      	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			      	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+		    </div>
+		    <div class="col-sm-12 col-lg-4 text-center">
+					<i class="fas fa-users fa-4x"></i>
+						<h4>La Communauté</h4>
+			      	<p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+		    </div>
+		  </div>
+		</div>
+		<h1 class="text-center">Témoignages</h1>
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="card">
+				  <img src="image/Surf5.jpg" class="card-img-top img-fluid" alt="Surfer assis sur le sable">
+				  <div class="card-body">
+				    <p class="card-text">Surfing's not a sport, it's a way of life, it's no hobby. It's a way of looking at the wave and saying, "Hey bud, let's party!"</p>
+				    <p class="card-text"><small class="text-muted"> Jeff. Avril 2019</small></p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="card">
+				  <img src="image/Surf3.jpg" class="card-img-top img-fluid" alt="Planches appuyées contre un Combi volkswagen">
+				  <div class="card-body">
+				    <p class="card-text">Grâce à TSP, je fais le tour du monde avec mon van et fais du surf! Si l'expérience était à refaire je le referais plein de fois</p>
+				    <p class="card-text"><small class="text-muted"> Jean-Michel. Octobre 2018</small></p>
+				  </div>
+				</div>
+			</div>
+		</div>
+		<br />
+	<div class="container">
+	  <div class="card-deck mb-3 text-center">
+	    <div class="card mb-4 shadow-sm">
+	      <div class="card-header">
+	        <h4 class="my-0 font-weight-normal">Semaine d'essai</h4>
+	      </div>
+	      <div class="card-body">
+	        <h1 class="card-title pricing-card-title">0€ </h1>
+	        <ul class="list-unstyled mt-3 mb-4">
+	          <li>Le Kiff</li>
+	          <li>À Bali</li>
+	          <li>Pendant 1 semaine</li>
+	        </ul>
+	        <button type="button" class="btn btn-lg btn-block btn-outline-primary">S'inscrire</button>
+	      </div>
+	    </div>
+	    <div class="card mb-4 shadow-sm">
+	      <div class="card-header">
+	        <h4 class="my-0 font-weight-normal">Early Bird</h4>
+	      </div>
+	      <div class="card-body">
+	        <h1 class="card-title pricing-card-title">15€</h1>
+	        <ul class="list-unstyled mt-3 mb-4">
+	          <li>Le Kiff</li>
+	          <li>À Bali</li>
+	          <li>Pendant 12 semaines</li>
+	        </ul>
+	        <button type="button" class="btn btn-lg btn-block btn-primary">S'inscrire</button>
+	      </div>
+	    </div>
+	    <div class="card mb-4 shadow-sm">
+	      <div class="card-header">
+	        <h4 class="my-0 font-weight-normal">En trois fois</h4>
+	      </div>
+	      <div class="card-body">
+	        <h1 class="card-title pricing-card-title">7€ <small class="text-muted">/ mo</small></h1>
+	        <ul class="list-unstyled mt-3 mb-4">
+	          <li>Le Kiff</li>
+	          <li>À Bali</li>
+	          <li>Pendant 12 semaines</li>
+	        </ul>
+	        <button type="button" class="btn btn-lg btn-block btn-primary">S'inscrire</button>
+	      </div>
+	    </div>
+	  </div>   		 
+		<footer>
+			<nav class="navbar navbar-light mt-4">
+		  	<ul class="navbar-nav mr-auto">
+		    	<li class="nav-item active text-muted">
+		     	 <a href="https://getbootstrap.com">&copy; Bootstrap</a>, et <a href="#">The Surfing Project</a>
+		    	</li>
+		  	</ul>
+			</nav>
+		</footer>
+				<script src="https://kit.fontawesome.com/1c5c13a528.js" crossorigin="anonymous"></script>
+				<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		  </body>
+	</body>
+</html>
